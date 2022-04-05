@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import vercel from '@sveltejs/adapter-vercel'
 import preprocess from 'svelte-preprocess';
 
 const dev = "production" === "development";
@@ -10,14 +10,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-        adapter: adapter({
-            pages: "docs",
-            assets: "docs"
-        }),
-        paths: {
-            // change below to your repo name
-            base: dev ? "" : "/sveltekit-pokedex",
-        },
+        adapter: vercel(),
     }
 };
 
