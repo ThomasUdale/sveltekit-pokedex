@@ -1,76 +1,76 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e5e781a6.js",
+    "file": "start-2561182a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-2391984f.js",
-      "_index-b514be23.js"
+      "_index-d69d8363.js",
+      "_index-ad0f869d.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/about.svelte",
       "src/routes/index.svelte",
-      "src/routes/pokemon/[id].svelte"
+      "src/routes/pokemon/[id].svelte",
+      "src/routes/about.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-b15e6970.js",
+    "file": "pages/__layout.svelte-6a516a13.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-2391984f.js"
+      "_index-d69d8363.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-27f1fe80.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-979cb181.js",
+    "file": "error.svelte-d46f51a6.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-2391984f.js"
-    ]
-  },
-  "src/routes/about.svelte": {
-    "file": "pages/about.svelte-873f1723.js",
-    "src": "src/routes/about.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-2391984f.js"
+      "_index-d69d8363.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-396f6d70.js",
+    "file": "pages/index.svelte-0d4e442c.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-2391984f.js",
-      "_index-b514be23.js"
+      "_index-d69d8363.js",
+      "_index-ad0f869d.js"
     ]
   },
   "src/routes/pokemon/[id].svelte": {
-    "file": "pages/pokemon/_id_.svelte-ea1bc4a5.js",
+    "file": "pages/pokemon/_id_.svelte-120fedf1.js",
     "src": "src/routes/pokemon/[id].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-2391984f.js"
+      "_index-d69d8363.js"
     ]
   },
-  "_index-2391984f.js": {
-    "file": "chunks/index-2391984f.js"
-  },
-  "_index-b514be23.js": {
-    "file": "chunks/index-b514be23.js",
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-18626f35.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
     "imports": [
-      "_index-2391984f.js"
+      "_index-d69d8363.js"
+    ]
+  },
+  "_index-d69d8363.js": {
+    "file": "chunks/index-d69d8363.js"
+  },
+  "_index-ad0f869d.js": {
+    "file": "chunks/index-ad0f869d.js",
+    "imports": [
+      "_index-d69d8363.js"
     ]
   }
 }
